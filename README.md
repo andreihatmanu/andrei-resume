@@ -1,4 +1,4 @@
-# React Nice Resume     
+# Andrei Hatmanu resume with React Nice Resume     
 
 ### DEMO is [here](https://nordicgiant2.github.io/react-nice-resume-page/index.html)
 
