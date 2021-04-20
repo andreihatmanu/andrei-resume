@@ -28,17 +28,22 @@
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url": "https://www.linkedin.com/in/andrei-hatmanu-867710106/",
         "className": "fa fa-linkedin"
       },
       {
         "name": "instagram",
-        "url": "http://instagram.com/tbaker_x",
+        "url": "https://www.instagram.com/andronim/",
         "className": "fa fa-instagram"
       },
       {
+        "name": "gitlab",
+        "url": "https://gitlab.com/hardman",
+        "className": "fab fa-gitlab"
+      },
+      {
         "name": "github",
-        "url": "https://github.com/nordicgiant2/react-nice-resume",
+        "url": "https://github.com/andreihatmanu",
         "className": "fa fa-github"
       }
     ]
@@ -86,7 +91,7 @@
         "logo": "sedeti-logo.jpg",
         "title": "Workshop Technician",
         "years": "November 2015 - April 2016",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description": "Repair, installation and con\u001Eguration of operating systems (Windows,\nLinux, MAC OS), backup copies and testing of physical components (RAM,\nHDD, GPU, CPU, etc.)."
       }
     ],
     "skills": [
