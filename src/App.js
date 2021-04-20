@@ -1,5 +1,6 @@
-import React, { Component } from "react";
+import React, { Component, useEffect, useState } from "react";
 import ReactGA from "react-ga";
+import firebase from "./firebase";
 import $ from "jquery";
 import "./App.css";
 import Header from "./Components/Header";
@@ -16,9 +17,18 @@ class App extends Component {
       foo: "bar",
       resumeData: {}
     };
-
     ReactGA.initialize("UA-110570651-1");
     ReactGA.pageview(window.location.pathname);
+  }
+
+  getMainInfo() {
+    const ref = firebase.firestore().collection("main");
+    ref.onSnapshot((querySnapshot) => {
+      const main = [];
+      querySnapshot.forEach((doc) => {
+        main.push(doc.data())
+      })
+    })
   }
 
   getResumeData() {
@@ -26,10 +36,10 @@ class App extends Component {
       url: "./resumeData.json",
       dataType: "json",
       cache: false,
-      success: function(data) {
+      success: function (data) {
         this.setState({ resumeData: data });
       }.bind(this),
-      error: function(xhr, status, err) {
+      error: function (xhr, status, err) {
         console.log(err);
         alert(err);
       }
@@ -38,17 +48,18 @@ class App extends Component {
 
   componentDidMount() {
     this.getResumeData();
+    this.getMainInfo()
   }
 
   render() {
     return (
       <div className="App">
-        <Header data={this.state.resumeData.main} />
-        <About data={this.state.resumeData.main} />
-        <Resume data={this.state.resumeData.resume} />
-        <Portfolio data={this.state.resumeData.portfolio} />
-        <Contact data={this.state.resumeData.main} />
-        <Footer data={this.state.resumeData.main} />
+        <Header data={ this.state.resumeData.main }/>
+        <About data={ this.state.resumeData.main }/>
+        <Resume data={ this.state.resumeData.resume }/>
+        <Portfolio data={ this.state.resumeData.portfolio }/>
+        <Contact data={ this.state.resumeData.main }/>
+        <Footer data={ this.state.resumeData.main }/>
       </div>
     );
   }
