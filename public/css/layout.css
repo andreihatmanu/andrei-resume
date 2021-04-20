@@ -23,6 +23,9 @@
 /* ------------------------------------------------------------------ */
 
 body { background: #0f0f0f; }
+.d-flex { display: flex;}
+.flex-column { flex-direction: column;}
+.flex-row { flex-direction: row;}
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -46,12 +49,14 @@ header:before {
    height: 100%;
 }
 header .banner {
-   display: inline-block;
-   vertical-align: middle;
-   margin: 0 auto;
-   width: 85%;
-   padding-bottom: 30px;
-   text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
+    width: 85%;
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(0 0 0 / 10%);
+    border-radius: 2em;
 }
 
 header .banner-text { width: 100%; }
@@ -88,9 +93,14 @@ header .social li {
    display: inline-block;
    margin: 0 15px;
    padding: 0;
+    transition: box-shadow .3s ease-out,transform .3s ease-out;
 }
-header .social li a { color: #fff; }
-header .social li a:hover { color: #0762f9; }
+header .social li:hover {
+     transform: translateY(-5px)
+}
+header .social li a { color: #cacaca; }
+header .social li a:hover { color: #fff; }
+header .social li a i::before { font-size: 40px; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -143,7 +153,8 @@ header .scrolldown a:hover { color: #0762f9; }
 ul#nav {
    min-height: 48px;
    width: auto;
-
+   display: flex;
+   justify-content: center;
    /* center align the menu */
    text-align: center;
 }
@@ -162,6 +173,7 @@ ul#nav li a {
    display: inline-block;
    padding: 8px 13px;
    line-height: 32px;
+    font-size: 14px;
 	text-decoration: none;
    text-align: left;
    color: #fff;
@@ -248,12 +260,13 @@ ul#nav li.current a { color: #fe6928; }
 #resume h1 span {
    border-bottom: 3px solid #0762f9;
    padding-bottom: 6px;
+   font-size: 20px;
 }
 #resume h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
-#resume .header-col { padding-top: 9px; }
+#resume .header-col { padding-top: 9px; text-align: center}
 #resume .main-col { padding-right: 10%; }
 
 .education, .work {
@@ -274,6 +287,22 @@ ul#nav li.current a { color: #fe6928; }
 #resume .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
+}
+
+#resume .profile-pic {
+   max-width: 160px;
+    border-radius: 25%;
+    object-fit: contain;
+    margin: 0 auto 48px;
+    overflow: hidden;
+    background: #fff;
+    transform: translateY(0);
+    transition: box-shadow .3s cubic-bezier(.215,.61,.355,1),transform .3s cubic-bezier(.215,.61,.355,1);
+    box-shadow: 0 16px 32px rgb(166 55 112 / 10%);
+}
+#resume .profile-pic:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 36px rgb(166 55 112 / 30%);
 }
 
 /*----------------------------------------------*/

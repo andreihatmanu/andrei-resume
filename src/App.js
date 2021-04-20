@@ -21,16 +21,6 @@ class App extends Component {
     ReactGA.pageview(window.location.pathname);
   }
 
-  getMainInfo() {
-    const ref = firebase.firestore().collection("main");
-    ref.onSnapshot((querySnapshot) => {
-      const main = [];
-      querySnapshot.forEach((doc) => {
-        main.push(doc.data())
-      })
-    })
-  }
-
   getResumeData() {
     $.ajax({
       url: "./resumeData.json",
@@ -48,7 +38,6 @@ class App extends Component {
 
   componentDidMount() {
     this.getResumeData();
-    this.getMainInfo()
   }
 
   render() {
@@ -58,7 +47,6 @@ class App extends Component {
         <About data={ this.state.resumeData.main }/>
         <Resume data={ this.state.resumeData.resume }/>
         <Portfolio data={ this.state.resumeData.portfolio }/>
-        <Contact data={ this.state.resumeData.main }/>
         <Footer data={ this.state.resumeData.main }/>
       </div>
     );
