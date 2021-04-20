@@ -32,7 +32,7 @@ class Resume extends Component {
       return (
         <div key={ work.company } className="d-flex flex-column flex-sm-row justify-content-around align-items-center">
           <div className="col-sm-4 col-md-3 text-center">
-            <img className="profile-pic" src={"images/" + work.logo} alt="Basetis logo" />
+            <img className="profile-pic" src={ "images/" + work.logo } alt="Basetis logo"/>
           </div>
           <div className="col-sm-8 col-md-9 d-flex flex-column ">
             <h3>{ work.company }</h3>
@@ -46,16 +46,17 @@ class Resume extends Component {
       );
     });
 
-    const skills = this.props.data.skills.map(skills => {
-      const backgroundColor = this.getRandomColor();
-      const className = "bar-expand " + skills.name.toLowerCase();
-      const width = skills.level;
+    const skills = this.props.data.skills.map(skill => {
+
 
       return (
-        <li key={ skills.name }>
-          <span style={ { width, backgroundColor } } className={ className }></span>
-          <em>{ skills.name }</em>
-        </li>
+         <div className="d-flex flex-column card m-3" key={ skill.name }>
+          <img className="skill-pic" src={ "images/" + skill.logo } alt={ skill.name + " logo" }/>
+          <div className="d-flex flex-column justify-content-center align-items-center info">
+            <h1>{ skill.name }</h1>
+            <p>{ skill.resume }</p>
+          </div>
+        </div>
       );
     });
 
@@ -73,22 +74,18 @@ class Resume extends Component {
             <h1><span>Education</span></h1>
           </div>
           <div>{ education }</div>
-        </div>*/}
+        </div>*/ }
 
 
-        <div className="row skill">
-          <div className="three columns header-col">
+        <div className="d-flex flex-column">
+          <div className="header-col">
             <h1>
               <span>Skills</span>
             </h1>
           </div>
 
-          <div className="nine columns main-col">
-            <p>{ skillmessage }</p>
-
-            <div className="bars">
-              <ul className="skills">{ skills }</ul>
-            </div>
+          <div className="d-flex justify-content-center">
+              <ul className="d-flex flex-wrap justify-content-around skills">{ skills }</ul>
           </div>
         </div>
       </section>

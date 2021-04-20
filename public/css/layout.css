@@ -277,8 +277,6 @@ ul#nav li.current a { color: #fe6928; }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
-   margin-bottom: 18px;
-   margin-top: 9px;
 }
 #resume .info span {
    margin-right: 5px;
@@ -303,6 +301,106 @@ ul#nav li.current a { color: #fe6928; }
 #resume .profile-pic:hover {
     transform: translateY(-4px);
     box-shadow: 0 20px 36px rgb(166 55 112 / 30%);
+}
+
+#resume .skill-pic {
+   object-fit: contain;
+}
+
+#resume .skill-card {
+   max-width: 160px;
+   border-radius: 5%;
+   object-fit: contain;
+   margin: 0 auto 48px;
+   overflow: hidden;
+   background: #fff;
+   transform: translateY(0);
+   transition: box-shadow .3s cubic-bezier(.215,.61,.355,1),transform .3s cubic-bezier(.215,.61,.355,1);
+   box-shadow: 0 16px 32px rgb(166 55 112 / 10%);
+}
+#resume .skill-card:hover {
+   transform: translateY(-4px);
+   box-shadow: 0 20px 36px rgb(166 55 112 / 30%);
+}
+
+.card {
+   width: 200px;
+   height: auto;
+   border-radius: 15px;
+   border: none;
+   padding: 1.5rem;
+   background: white;
+   position: relative;
+   display: flex;
+   align-items: flex-end;
+   transition: 0.4s ease-out;
+   box-shadow: 0 16px 32px rgb(166 55 112 / 10%);
+}
+.card:hover {
+}
+.card:hover:before {
+   opacity: 1;
+}
+.card:hover .info {
+   opacity: 1;
+   transform: translateY(0px);
+}
+.card:before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   display: block;
+   width: 100%;
+   height: 100%;
+   border-radius: 15px;
+   background: rgba(0, 0, 0, 0.6);
+   z-index: 2;
+   transition: 0.5s;
+   opacity: 0;
+}
+.card img {
+   width: 100%;
+   height: 100%;
+   -o-object-fit: cover;
+   object-fit: cover;
+   position: absolute;
+   top: 0;
+   left: 0;
+   border-radius: 15px;
+}
+.card .info {
+   position: relative;
+   z-index: 3;
+   color: #ffffff;
+   opacity: 0;
+   transform: translateY(30px);
+   transition: 0.5s;
+}
+.card .info h1 {
+   margin: 0px;
+   color: #ffffff;
+}
+.card .info p {
+   letter-spacing: 1px;
+   margin-top: 8px;
+   color: #e2e2e2;
+   font: 15px/24px 'opensans-regular', sans-serif;
+}
+.card .info button {
+   padding: 0.6rem;
+   outline: none;
+   border: none;
+   border-radius: 3px;
+   background: white;
+   color: black;
+   font-weight: bold;
+   cursor: pointer;
+   transition: 0.4s ease;
+}
+.card .info button:hover {
+   background: dodgerblue;
+   color: white;
 }
 
 /*----------------------------------------------*/
