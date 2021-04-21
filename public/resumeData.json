@@ -2,7 +2,7 @@
   "main": {
     "name": "Hi, I'm Andrei",
     "description": "Hi! My name is Andrei Hatmanu, graduated in Web\nApplication Development, with a great interest in learning and\nimproving my skills",
-    "image": "profilepic.jpg",
+    "image": "testimonials-bg.jpg",
     "bio": "Graduate in Web Development at the Jaume Balmes Institute, Barcelona. Studying, I managed to fulfill my personal interest in the IT world and, meanwhile, I developed my programming and OOP skills.\n\nI am a cooperating person, willing to achieve personal and professional success as best as possible. I consider myself logical, strategic and determined to take part in as many challenges as possible. This is why I love working with new projects, people, personalities and technologies that I have never practiced.\n\nThe current company has offered me the opportunity to get involved in new technologies, so that I can bring as much value to the company and to the projects regardless of personal or professional qualities and abilities.\n\nMy personal intereses are in cryptocurrencies, JavaScript frameworks and libraries; backend based on Javascript; web development and code optimization; progressive web application; and IoT.\n\nI am ready for new challenges! ",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "andrey.hatmanu@gmail.com",
@@ -13,32 +13,22 @@
       "city": "Barcelona",
       "state": "Spain"
     },
-    "website": "http://www.timbakerdev.com",
+    "website": "http://andrei-hatmanu.web.app",
     "resumedownload": "http://timbakerdev.com",
     "social": [
       {
-        "name": "facebook",
-        "url": "https://github.com/nordicgiant2/react-nice-resume",
-        "className": "fa fa-facebook"
-      },
-      {
-        "name": "twitter",
-        "url": "http://twitter.com",
-        "className": "fa fa-twitter"
-      },
-      {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url": "https://www.linkedin.com/in/andrei-hatmanu-867710106/",
         "className": "fa fa-linkedin"
       },
       {
         "name": "instagram",
-        "url": "http://instagram.com/tbaker_x",
+        "url": "https://www.instagram.com/andronim/",
         "className": "fa fa-instagram"
       },
       {
         "name": "github",
-        "url": "https://github.com/nordicgiant2/react-nice-resume",
+        "url": "https://github.com/andreihatmanu",
         "className": "fa fa-github"
       }
     ]
@@ -86,7 +76,7 @@
         "logo": "sedeti-logo.jpg",
         "title": "Workshop Technician",
         "years": "November 2015 - April 2016",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description": "Repair, installation and configuration of operating systems (Windows,\nLinux, MAC OS), backup copies and testing of physical components (RAM,\nHDD, GPU, CPU, etc.)."
       }
     ],
     "skills": [
@@ -112,7 +102,39 @@
       },{
         "name": "Sass",
         "logo": "sass.svg",
-        "resume": "Preprocessor used to add style on the websites. I used because of his easy reading, writing and malleability"
+        "resume": "Preprocessor used to add style on the websites. I used because of his easy reading, writing and malleability."
+      },{
+        "name": "Adobe Illustrator",
+        "logo": "Illustrator.jpg",
+        "resume": "I've used this software to make my CV."
+      },{
+        "name": "HTML&CSS",
+        "logo": "html-css.jpg",
+        "resume": "Everybody knows a bit of html and css, because is the basic of building a website."
+      },{
+        "name": "Jquery",
+        "logo": "jquery.jpg",
+        "resume": "As the slogan says, we use it because we write less and do more."
+      },{
+        "name": "Laravel",
+        "logo": "laravel.jpg",
+        "resume": "I have some small project (CRUD) build with this framework. Also I made some APIs and RestAPI."
+      },{
+        "name": "MySQL",
+        "logo": "mysql.jpg",
+        "resume": "I use it in all WordPress projects, because is how it works this CMS."
+      },{
+        "name": "PHP",
+        "logo": "php.svg",
+        "resume": "I use it in all WordPress projects, because is how it's build WordPress, and also for OOP."
+      },{
+        "name": "Linux (Ubuntu)",
+        "logo": "linux.png",
+        "resume": "Actually is not a skill, but I feel comfortable to work with open source OS."
+      },{
+        "name": "Python",
+        "logo": "python.jpg",
+        "resume": "I know how it works, and sincerely I'm a beginner with this language."
       }
     ]
   },

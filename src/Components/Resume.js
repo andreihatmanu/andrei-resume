@@ -28,23 +28,38 @@ class Resume extends Component {
       );
     });
 
-    const work = this.props.data.work.map(function (work) {
-      return (
-        <div key={ work.company } className="d-flex flex-column flex-sm-row justify-content-around align-items-center">
-          <div className="col-sm-4 col-md-3 text-center">
-            <img className="profile-pic" src={ "images/" + work.logo } alt="Basetis logo"/>
+    const work = this.props.data.work.map((work, index) => (
+        (
+          <div key={ work.index }
+               className="d-flex flex-column flex-sm-row justify-content-around align-items-center">
+            <div className="col-sm-4 col-md-3 text-center">
+              <img className="profile-pic" src={ "images/" + work.logo } alt="Basetis logo"/>
+            </div>
+            <div className="col-sm-8 col-md-9 d-flex flex-column ">
+              <h3>{ work.company }</h3>
+              <p className="info">
+                { work.title }
+                <span>&bull;</span> <em className="date">{ work.years }</em>
+              </p>
+              <p>{ work.description }</p>
+            </div>
+          </div>)
+        /*) : (
+          <div key={ work.index } className="d-flex flex-column flex-sm-row-reverse justify-content-around align-items-center">
+            <div className="col-sm-4 col-md-3 text-center">
+              <img className="profile-pic" src={ "images/" + work.logo } alt="Basetis logo"/>
+            </div>
+            <div className="col-sm-8 col-md-9 d-flex flex-column ">
+              <h3>{ work.company }</h3>
+              <p className="info">
+                { work.title }
+                <span>&bull;</span> <em className="date">{ work.years }</em>
+              </p>
+              <p>{ work.description }</p>
+            </div>
           </div>
-          <div className="col-sm-8 col-md-9 d-flex flex-column ">
-            <h3>{ work.company }</h3>
-            <p className="info">
-              { work.title }
-              <span>&bull;</span> <em className="date">{ work.years }</em>
-            </p>
-            <p>{ work.description }</p>
-          </div>
-        </div>
-      );
-    });
+        )*/
+    ));
 
     const skills = this.props.data.skills.map(skill => {
 
@@ -69,10 +84,10 @@ class Resume extends Component {
               <span>Experience</span>
             </h1>
           </div>
-          <div>{ work }</div>
+          <div className="w-75 mx-auto">{ work }</div>
         </div>
 
-        <div className="d-flex flex-column">
+        {/*<div className="d-flex flex-column">
           <div className="header-col mx-auto">
             <h1 className="d-flex justify-content-center align-items-center p-3 border-bottom">
               <img className="section-icon" src={ "images/books.png" } alt="Education"/>
@@ -80,7 +95,7 @@ class Resume extends Component {
             </h1>
           </div>
           <div>{ education }</div>
-        </div>
+        </div>*/}
 
 
         <div className="d-flex flex-column">
