@@ -50,7 +50,7 @@ class Resume extends Component {
 
 
       return (
-         <div className="d-flex flex-column card m-3" key={ skill.name }>
+        <div className="d-flex flex-column card m-3" key={ skill.name }>
           <img className="skill-pic" src={ "images/" + skill.logo } alt={ skill.name + " logo" }/>
           <div className="d-flex flex-column justify-content-center align-items-center info">
             <h1>{ skill.name }</h1>
@@ -63,29 +63,36 @@ class Resume extends Component {
     return (
       <section id="resume">
         <div className="d-flex flex-column">
-          <div className="header-col">
-            <h1><span>Experience</span></h1>
+          <div className="header-col mx-auto m-5">
+            <h1 className="d-flex justify-content-center align-items-center p-3 border-bottom">
+              <img className="section-icon" src={ "images/job-search.png" } alt="Experience"/>
+              <span>Experience</span>
+            </h1>
           </div>
           <div>{ work }</div>
         </div>
 
-        {/*<div className="d-flex flex-column">
-          <div className="header-col">
-            <h1><span>Education</span></h1>
+        <div className="d-flex flex-column">
+          <div className="header-col mx-auto">
+            <h1 className="d-flex justify-content-center align-items-center p-3 border-bottom">
+              <img className="section-icon" src={ "images/books.png" } alt="Education"/>
+              <span>Education</span>
+            </h1>
           </div>
           <div>{ education }</div>
-        </div>*/ }
+        </div>
 
 
         <div className="d-flex flex-column">
-          <div className="header-col">
-            <h1>
+          <div className="header-col mx-auto m-5">
+            <h1 className="d-flex justify-content-center align-items-center p-3 border-bottom">
+              <img className="section-icon" src={ "images/skills.png" } alt="Skills"/>
               <span>Skills</span>
             </h1>
           </div>
 
           <div className="d-flex justify-content-center">
-              <ul className="d-flex flex-wrap justify-content-around skills">{ skills }</ul>
+            <ul className="d-flex flex-wrap justify-content-around skills">{ skills }</ul>
           </div>
         </div>
       </section>
