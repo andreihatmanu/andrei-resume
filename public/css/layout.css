@@ -398,7 +398,7 @@ ul#nav li.current a {
 
 .card {
     width: 200px;
-    height: auto;
+    height: 200px;
     border-radius: 15px;
     border: none;
     padding: 1.5rem;

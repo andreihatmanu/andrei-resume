@@ -108,6 +108,10 @@
         "logo": "illustrator.jpg",
         "resume": "I've used this software to make my CV."
       },{
+        "name": "Firebase",
+        "logo": "firebase.png",
+        "resume": "I use Firebase as my hosting platform for most of my projects because of all the features provided."
+      },{
         "name": "HTML&CSS",
         "logo": "html-css.jpg",
         "resume": "Everybody knows a bit of html and css, because is the basic of building a website."
