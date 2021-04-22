@@ -280,7 +280,13 @@ ul#nav li.current a {
 
 #about .download .button {
     margin-top: 6px;
-    background: #444;
+    background: none;
+}
+#about .download a:hover {
+    text-decoration: none;
+}
+#about .download a:focus {
+    color: #ffffff;
 }
 
 #about .download .button:hover {
@@ -301,7 +307,9 @@ ul#nav li.current a {
 #resume {
     background: #fff;
     padding-bottom: 72px;
-    overflow: hidden;
+}
+#resume .firm {
+    top: 70px;
 }
 
 #resume a, #resume a:visited {
@@ -320,7 +328,7 @@ ul#nav li.current a {
 
 #resume h1 span {
     padding-bottom: 6px;
-    font-size: 26px;
+    font-size: 30px;
 }
 
 #resume h3 {
@@ -342,14 +350,31 @@ ul#nav li.current a {
     border-bottom: 1px solid #E8E8E8;
 }
 
+.vertical-line {
+    border-left: 2px solid #c2c2c2;
+    height: 100%;
+}
+
+.dot {
+    font-size: 50px;
+    margin-top: -4px;
+}
+
 #resume .info {
     font: 16px/24px 'librebaskerville-italic', serif;
-    color: #6E7881;
+    color: #1a171b;
 }
 
 #resume .info span {
     margin-right: 5px;
     margin-left: 5px;
+}
+
+#resume .info{
+    margin: 0 0 20px 0;
+}
+#resume .description{
+    margin: 0px;
 }
 
 #resume .date {
@@ -497,8 +522,8 @@ ul#nav li.current a {
     text-align: left;
 }
 
-.bars .skills {
-    margin-top: 36px;
+.skills {
+    margin: 10px 100px auto 100px;
     list-style: none;
 }
 
