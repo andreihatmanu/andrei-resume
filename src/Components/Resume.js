@@ -32,11 +32,11 @@ class Resume extends Component {
       (
         <div key={ index }
              className="d-flex flex-column flex-sm-row justify-content-around align-items-start">
-          <div className="col-sm-4 col-md-3 text-center position-sticky firm">
+          <div className="col-sm-4 text-center firm">
             <img className="profile-pic" src={ "images/" + work.logo } alt="Basetis logo"/>
           </div>
 
-          <div className="col-sm-8 col-md-9 d-flex flex-column ">
+          <div className="col-sm-8 d-flex flex-column ">
             <h3>{ work.company }</h3>
             { work.rols && work.rols.map((rol, index) => (
               <div key={ index } className="d-flex flex-row mb-4">
