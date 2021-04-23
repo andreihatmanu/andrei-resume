@@ -33,6 +33,13 @@ body {
 .header-col {
     width: 30%;
 }
+.carousel-container {
+    max-width: 100%;
+}
+
+.owl-carousel .owl-stage {
+    height: 150px; /*Overwrite carousel height*/
+}
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -236,7 +243,6 @@ ul#nav li.current a {
     background: #000524;
     padding-top: 96px;
     padding-bottom: 66px;
-    overflow: hidden;
 }
 
 #about a, #about a:visited {
@@ -259,9 +265,10 @@ ul#nav li.current a {
 }
 
 #about .profile-pic {
-    position: relative;
-    width: 120px;
-    height: 120px;
+    position: sticky;
+    top: 70px;
+    width: 150px;
+    height: 150px;
     border-radius: 100%;
 }
 
@@ -270,7 +277,6 @@ ul#nav li.current a {
 }
 
 #about .download {
-    width: 58.33333%;
     padding-top: 6px;
 }
 
@@ -281,6 +287,9 @@ ul#nav li.current a {
 #about .download .button {
     margin-top: 6px;
     background: none;
+    border: 1px solid;
+    border-radius: 40px;
+    padding: 15px 30px;
 }
 #about .download a:hover {
     text-decoration: none;
@@ -397,6 +406,34 @@ ul#nav li.current a {
     transform: translateY(0);
     transition: box-shadow .3s cubic-bezier(.215, .61, .355, 1), transform .3s cubic-bezier(.215, .61, .355, 1);
     box-shadow: 0 16px 32px rgb(166 55 112 / 10%);
+}
+
+@media screen and (min-width: 576px) {
+    #resume .profile-pic {
+        max-width: 100px;
+        border-radius: 25%;
+        object-fit: contain;
+        margin: 0 auto 48px;
+        cursor: pointer;
+        overflow: hidden;
+        background: #fff;
+        transform: translateY(0);
+        transition: box-shadow .3s cubic-bezier(.215, .61, .355, 1), transform .3s cubic-bezier(.215, .61, .355, 1);
+        box-shadow: 0 16px 32px rgb(166 55 112 / 10%);
+    }
+}@media screen and (min-width: 768px) {
+    #resume .profile-pic {
+        max-width: 160px;
+        border-radius: 25%;
+        object-fit: contain;
+        margin: 0 auto 48px;
+        cursor: pointer;
+        overflow: hidden;
+        background: #fff;
+        transform: translateY(0);
+        transition: box-shadow .3s cubic-bezier(.215, .61, .355, 1), transform .3s cubic-bezier(.215, .61, .355, 1);
+        box-shadow: 0 16px 32px rgb(166 55 112 / 10%);
+    }
 }
 
 #resume .profile-pic:hover {
@@ -679,7 +716,9 @@ ul#nav li.current a {
     background: #fff;
     overflow: hidden;
     position: relative;
-
+    width: 207px;
+    text-decoration: none;
+    box-shadow: 0px 6px 7px 0px rgb(26 23 27 / 15%);
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -737,6 +776,9 @@ ul#nav li.current a {
     margin-top: -15px;
 }
 
+.portfolio-item {
+
+}
 .portfolio-item .item-wrap img {
     vertical-align: bottom;
 }

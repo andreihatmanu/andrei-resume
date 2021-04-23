@@ -15,33 +15,35 @@ class About extends Component {
 
     return (
       <section id="about">
-        <div className="row">
-          <div className="three columns">
+        <div className="d-flex flex-column flex-sm-row-reverse">
+          <div className="col-12 col-sm-3 d-flex justify-content-center">
             <img className="profile-pic" src={profilepic} alt="Nordic Giant Profile Pic" />
           </div>
-          <div className="nine columns main-col">
+          <div className="col-12 col-sm-8">
             <h2>About Me</h2>
 
-            <p>{bio}</p>
-            <div className="row">
-              <div className="columns contact-details">
-                <h2>Contact Details</h2>
-                <p className="address">
-                  <span>{name}</span>
-                  <br />
-                  <span>
+            <div className="d-flex flex-column">
+              <p>{bio}</p>
+              <div className="d-flex flex-column flex-sm-row justify-content-sm-between">
+                <div className="contact-details">
+                  <h2>Contact Details</h2>
+                  <p className="address">
+                    <span>{name}</span>
+                    <br />
+                    <span>
                     {city}, {state}
                   </span>
-                  <br />
-                  <span>{phone}</span>
-                  <br />
-                  <a href={"mailto:"+email}>{email}</a>
-                </p>
-              </div>
-              <div className="columns download">
+                    <br />
+                    <span>{phone}</span>
+                    <br />
+                    <a href={"mailto:"+email}>{email}</a>
+                  </p>
+                </div>
+                <div className="mx-auto download">
                   <a href={resumeDownload} className="button" target="_blank">
-                    <i className="fa fa-download"></i>Download Resume
+                    <i className="fa fa-download"></i>Download CV
                   </a>
+                </div>
               </div>
             </div>
           </div>

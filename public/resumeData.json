@@ -2,8 +2,8 @@
   "main": {
     "name": "Hi, I'm Andrei",
     "description": "Hi! My name is Andrei Hatmanu, graduated in Web\nApplication Development, with a great interest in learning and\nimproving my skills",
-    "image": "testimonials-bg.jpg",
-    "bio": "Graduate in Web Development at the Jaume Balmes Institute, Barcelona. Studying, I managed to fulfill my personal interest in the IT world and, meanwhile, I developed my programming and OOP skills.\n\nI am a cooperating person, willing to achieve personal and professional success as best as possible. I consider myself logical, strategic and determined to take part in as many challenges as possible. This is why I love working with new projects, people, personalities and technologies that I have never practiced.\nThe current company has offered me the opportunity to get involved in new technologies, so that I can bring as much value to the company and to the projects regardless of personal or professional qualities and abilities.\n\nMy personal intereses are in cryptocurrencies, JavaScript frameworks and libraries; backend based on Javascript; web development and code optimization; progressive web application; and IoT.\n\nI am ready for new challenges! ",
+    "image": "profilepic.jpg",
+    "bio": "Graduate in Web Development at the Jaume Balmes Institute, Barcelona. Studying, I managed to fulfill my personal interest in the IT world and, meanwhile, I developed my programming and OOP skills.\n\nI am a cooperating person, willing to achieve personal and professional success as best as possible. I consider myself logical, strategic and determined to take part in as many challenges as possible. This is why I love working with new projects, people, personalities and technologies that I have never practiced.\nThe current company has offered me the opportunity to get involved in new technologies, so that I can bring as much value to the company and to the projects regardless of personal or professional qualities and abilities.\n\nMy personal intereses are in JavaScript frameworks and libraries; backend based on Javascript; web development and code optimization and progressive web application.\n\nI am ready for new challenges! ",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "andrey.hatmanu@gmail.com",
     "phone": "+34 622 239 401 / +40 773 257 852",
@@ -196,76 +196,33 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Canadian Wanderlust",
+        "title": "Solicitar Gas Natural",
         "category": "My Travel Blog for my post-university travels",
-        "image": "01.jpg",
-        "url": "https://www.canadianwanderlust.com"
+        "image": "solicitargasnatural.png",
+        "url": "https://solicitargasnatural.nedgia.es"
+      },{
+        "title": "Area Privada Cliente",
+        "category": "My Travel Blog for my post-university travels",
+        "image": "areaprivadacliente.png",
+        "url": "https://areaprivada.nedgia.es"
       },
       {
-        "title": "Fury Fighting Gear",
+        "title": "Nedgia",
+        "category": "My Travel Blog for my post-university travels",
+        "image": "nedgia.png",
+        "url": "https://www.nedgia.es"
+      },
+      {
+        "title": "Rockteeth",
         "category": "(offline now) A fighting gear company I started",
-        "image": "02.jpg",
-        "url": "http://www.timbakerdev.com"
+        "image": "rockteeth.png",
+        "url": "http://prescripciones.rockteeth.com/"
       },
       {
-        "title": "Original Thai Food",
+        "title": "Areas",
         "category": "Website I built for a restaurant I like in Thailand",
-        "image": "03.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title": "Resume Website",
-        "category": "A React based resume website template",
-        "image": "04.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "05.jpg",
-        "url": "http://www.smirkspace.com"
-      },
-      {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "06.jpg",
-        "url": "https://www.canadianwanderlust.com"
-      },
-      {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
-        "image": "01.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "02.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "03.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title": "Resume Website",
-        "category": "A React based resume website template",
-        "image": "04.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "05.jpg",
-        "url": "http://www.smirkspace.com"
-      },
-      {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "06.jpg",
-        "url": "https://www.canadianwanderlust.com"
+        "image": "areas.png",
+        "url": "http://areas.com"
       }
     ]
   }
