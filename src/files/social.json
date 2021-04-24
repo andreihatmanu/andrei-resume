@@ -1,0 +1,17 @@
+[
+  {
+    "name": "linkedin",
+    "url": "https://www.linkedin.com/in/andrei-hatmanu-867710106/",
+    "className": "fa fa-linkedin"
+  },
+  {
+    "name": "instagram",
+    "url": "https://www.instagram.com/andronim/",
+    "className": "fa fa-instagram"
+  },
+  {
+    "name": "github",
+    "url": "https://github.com/andreihatmanu",
+    "className": "fa fa-github"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Hi, I'm Andrei",
+    "description": "Hi! My name is Andrei Hatmanu, graduated in Web\nApplication Development, with a great interest in learning and\nimproving my skills",
+    "image": "profilepic.jpg",
+    "bio": "Graduate in Web Development at the Jaume Balmes Institute, Barcelona. Studying, I managed to fulfill my personal interest in the IT world and, meanwhile, I developed my programming and OOP skills.\n\nI am a cooperating person, willing to achieve personal and professional success as best as possible. I consider myself logical, strategic and determined to take part in as many challenges as possible. This is why I love working with new projects, people, personalities and technologies that I have never practiced.\nThe current company has offered me the opportunity to get involved in new technologies, so that I can bring as much value to the company and to the projects regardless of personal or professional qualities and abilities.\n\nMy personal intereses are in JavaScript frameworks and libraries; backend based on Javascript; web development and code optimization and progressive web application.\n\nI am ready for new challenges! ",
+    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "andrey.hatmanu@gmail.com",
+    "phone": "+34 622 239 401 / +40 773 257 852",
+    "github": "https://github.com/nordicgiant2/react-nice-resume",
+    "project": "https://github.com/nordicgiant2/react-nice-resume",
+      "city": "Barcelona",
+      "state": "Spain",
+    "website": "http://andrei-hatmanu.web.app",
+    "resumedownload": "https://drive.google.com/file/d/1rsAW_NLMisgXzYR7eq8hn2thVSKAW_21/view?usp=sharing"
+  }
+]

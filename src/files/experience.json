@@ -1,0 +1,62 @@
+[
+  {
+    "company": "Basetis",
+    "logo": "basetis-logo.jpg",
+    "rols": [
+      {
+        "position": "Frontend Web Developer - Team Leader",
+        "period": "June 2020 - Present",
+        "description": "Front development of a web app for the digitization of requests for connection to the gas network. Private area for clients and client travel.\n\nTECHNOLOGIES: WordPress, React, Redux and Material-UI\nTOOLS: Git, Jira, Trello, and GitLab\nWORK METHODOLOGY: Agile scrum methodology"
+      },
+      {
+        "position": "Frontend Web Developer - Team Leader",
+        "period": "January 2020 - June 2020",
+        "description": "Internal project for Rockteeth. The project has been developed in React. The web application has different functional sections. First you have the CRUD of the different entities defined by the stackholder.\nSecondly, we have a custom section to create prescriptions where the dentists' data are incorporated, the number of pieces (teeth) to be replaced or implanted according to the needs of each client, finally there is the client's data (name, age , face shape, etc).\nThird, we have a statistics page for the monthly reports that the clinic does.\nFinally, we have an incidence section, in which anomalies are discussed whether they are the client or the prescription. \n\nTECHNOLOGIES: React, Redux and Ant Design\nTOOLS: Git, Trello, and GitLab \nWORK METHODOLOGY: Agile scrum methodolog"
+      },
+      {
+        "position": "Frontend Web Developer",
+        "period": "July 2019 - January 2020",
+        "description": "A copy in WordPress (Multisite) of the old web areas.com has been made using plugins such as: Custom Post Type, Advanced Custom Fields, WP Rocket and Yoast SEO.\nAt the request of the client, I have created a custom cookie consent popup and the carousel of the tweets of the Twitter account of each subsite. \n\nTECHNOLOGIES: WordPress\nTOOLS: Git, Jira, Trello, and GitLab\n"
+      },
+      {
+        "position": "Practice",
+        "period": "February 2019 - July 2019",
+        "description": "Web application made with WordPress, for potential customers who may request gas for their home. Custom plugins have been made for the operation required by the client, at the same time, Gulp has been used as a compiler for JS and SCSS.\n\nTECHNOLOGIES: WordPress\nTOOLS: Git, Jira and GitLab\nWORK METHODOLOGY: Agile scrum methodology"
+      }
+    ]
+  },
+  {
+    "company": "Norwegian",
+    "logo": "norwegian-logo.jpg",
+    "rols": [
+      {
+        "position": "Check-in Agent",
+        "period": "April 2018 - July 2018",
+        "description": "Check-in, boarding, checking travel requirements and documentation of passengers traveling to USA, UK and Europe at Barcelona-El Prat Airport."
+      }
+    ]
+  },
+  {
+    "company": "Swissport",
+    "logo": "swissport-logo.jpg",
+    "rols": [
+      {
+        "position": "Check-in Agent",
+        "period": "April 2017 - November 2018",
+        "description": "Check-in and boarding of passenger to the airlines of Barcelona El Prat Terminal2.\nGermanwings, Eurowings, Transavia, Jet2, Pegasus, BlueAir, Windrose, Ifly, Redwings, AirMoldova, FlyOne and WizzAir."
+      }
+    ]
+  },
+  {
+    "company": "Sedeti Advanced",
+    "logo": "sedeti-logo.jpg",
+    "title": "Workshop Technician",
+    "rols": [
+      {
+        "position": "Technician Microcomputer Systems and Networks",
+        "period": "November 2015 - April 2016",
+        "description": "Repair, installation and configuration of operating systems (Windows,Linux, MAC OS), backup copies and testing of physical components (RAM,HDD, GPU, CPU, etc.). \nDesktops and laptops maintenance, basic software and system configuration for users, network configuration, DNS y Proxies, CMS configurations and maintenance, advanced use of office apps and tools, Back up, restore, maintenance and implementation of operating systems and assembly equipment."
+      }
+    ]
+  }
+]

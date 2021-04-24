@@ -1,0 +1,82 @@
+[
+  {
+    "name": "React",
+    "logo": "react.svg",
+    "resume": "Because in my opinion is a customizable library, I can use it for SPA or PWA."
+  },
+  {
+    "name": "Npm",
+    "logo": "npm.svg",
+    "resume": "Basically I use it on React projects, but sometimes also I implemented on CMS to compile."
+  },
+  {
+    "name": "Javascript",
+    "logo": "javascript.svg",
+    "resume": "I use this programming language to modify the DOM, basically on CMS."
+  },
+  {
+    "name": "WordPress",
+    "logo": "wordpress.svg",
+    "resume": "I've build some websites with this CMS, also I created plugin and new themes."
+  },
+  {
+    "name": "Sass",
+    "logo": "sass.svg",
+    "resume": "Preprocessor used to add style on the websites. I used because of his easy reading, writing and malleability."
+  },
+  {
+    "name": "Adobe Illustrator",
+    "logo": "illustrator.jpg",
+    "resume": "I've used this software to make my CV."
+  },
+  {
+    "name": "Firebase",
+    "logo": "firebase.png",
+    "resume": "I use Firebase as my hosting platform for most of my projects because of all the features provided."
+  },
+  {
+    "name": "Git",
+    "logo": "git.png",
+    "resume": "I use Git for all of my projects so far. I have used Git for version control in big teams."
+  },
+  {
+    "name": "Java",
+    "logo": "java.png",
+    "resume": "Java was my first programming language that I started using in college years ago."
+  },
+  {
+    "name": "HTML&CSS",
+    "logo": "html-css.jpg",
+    "resume": "Everybody knows a bit of html and css, because is the basic of building a website."
+  },
+  {
+    "name": "Jquery",
+    "logo": "jquery.jpg",
+    "resume": "As the slogan says, we use it because we write less and do more."
+  },
+  {
+    "name": "Laravel",
+    "logo": "laravel.jpg",
+    "resume": "I have some small project (CRUD) build with this framework. Also I made some APIs and RestAPI."
+  },
+  {
+    "name": "MySQL",
+    "logo": "mysql.jpg",
+    "resume": "I use it in all WordPress projects, because is how it works this CMS."
+  },
+  {
+    "name": "PHP",
+    "logo": "php.svg",
+    "resume": "I use it in all WordPress projects, because is how it's build WordPress, and also for OOP."
+  },
+  {
+    "name": "Linux (Ubuntu)",
+    "logo": "linux.png",
+    "resume": "Actually is not a skill, but I feel comfortable to work with open source OS."
+  },
+  {
+    "name": "Python",
+    "logo": "python.jpg",
+    "resume": "I know how it works, and sincerely I'm a beginner with this language."
+  }
+]
