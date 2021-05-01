@@ -223,6 +223,12 @@
         "category": "Website I built for a restaurant I like in Thailand",
         "image": "areas.png",
         "url": "http://areas.com"
+      },
+      {
+        "title": "GoGreenScooters",
+        "category": "Website I built for a restaurant I like in Thailand",
+        "image": "gogreenscooters.png",
+        "url": "http://gogreenscooters.ro"
       }
     ]
   }
