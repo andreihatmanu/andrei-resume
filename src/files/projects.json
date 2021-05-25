@@ -1,0 +1,31 @@
+[
+  {
+    "title": "Solicitar Gas Natural",
+    "category": "My Travel Blog for my post-university travels",
+    "image": "solicitargasnatural.png",
+    "url": "https://solicitargasnatural.nedgia.es"
+  },{
+  "title": "Area Privada Cliente",
+  "category": "My Travel Blog for my post-university travels",
+  "image": "areaprivadacliente.png",
+  "url": "https://areaprivada.nedgia.es"
+},
+  {
+    "title": "Nedgia",
+    "category": "My Travel Blog for my post-university travels",
+    "image": "nedgia.png",
+    "url": "https://www.nedgia.es"
+  },
+  {
+    "title": "Rockteeth",
+    "category": "(offline now) A fighting gear company I started",
+    "image": "rockteeth.png",
+    "url": "http://prescripciones.rockteeth.com/"
+  },
+  {
+    "title": "Areas",
+    "category": "Website I built for a restaurant I like in Thailand",
+    "image": "areas.png",
+    "url": "http://areas.com"
+  }
+]

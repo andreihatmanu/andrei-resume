@@ -1,12 +1,20 @@
 import React, { Component } from "react";
 import ParticlesBg from "particles-bg";
 
+import { firestore } from '../firebase'
+
 class Header extends Component {
+  async componentDidMount() {
+    const response = firestore.collection('social');
+    const data = await response.get();
+    data.docs.forEach(item=>{
+      console.log(item.data());
+    })
+
+  }
   render() {
     if (!this.props.data) return null;
 
-    const project = this.props.data.project;
-    const github = this.props.data.github;
     const name = this.props.data.name;
     const description = this.props.data.description;
 
