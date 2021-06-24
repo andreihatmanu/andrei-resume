@@ -37,16 +37,23 @@
     "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
     "education": [
       {
-        "school": "University?",
-        "degree": "Masters in Beer tasting",
-        "graduated": "April 2017",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "logo": "uoc.png",
+        "school": "Open University of Catalonia (UOC)",
+        "degree": "IT Engineering",
+        "graduated": "Currently studying",
+        "description": "In this new academic stage I will acquire more knowledge about IT, among others, the theoretical foundations and practical knowledgeabout programming, systems administration, networks and security necessary to develop my activity in a wide range of related areas with the exercise of computer engineering."
       },
       {
-        "school": "School #1 Maybe College?",
-        "degree": "What did you study 101",
-        "graduated": "March 2013",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "INS JAUME BALMES",
+        "degree": "Development of web applications",
+        "graduated": "2017 - 2019",
+        "description": ""
+      },
+      {
+        "school": "IES THOS I CODINA",
+        "degree": "Micro computer systems and networks",
+        "graduated": "2014 - 2016",
+        "description": ""
       }
     ],
     "work": [
@@ -57,21 +64,131 @@
           {
             "position": "Frontend Web Developer - Team Leader",
             "period": "June 2020 - Present",
-            "description": "Front development of a web app for the digitization of requests for connection to the gas network. Private area for clients and client travel.\n\nTECHNOLOGIES: WordPress, React, Redux and Material-UI\nTOOLS: Git, Jira, Trello, and GitLab\nWORK METHODOLOGY: Agile scrum methodology"
-         },{
+            "description": "Front development of a web app for the digitization of requests for connection to the gas network. Private area for clients and client travel.",
+            "technologies": [
+              {
+                "name": "WordPress"
+              },
+              {
+                "name": "ReactJS"
+              },
+              {
+                "name": "Redux"
+              },
+              {
+                "name": "Material-UI"
+              }
+            ],
+            "tools": [
+              {
+                "name": "Git"
+              },
+              {
+                "name": "Jira"
+              },
+              {
+                "name": "Trello"
+              },
+              {
+                "name": "Google Drive"
+              },
+              {
+                "name": "GitLab"
+              }
+            ],
+            "methodology": [
+              {
+                "name": "Agile scrum methodology"
+              },
+              {
+                "name": "Agile scrum methodology"
+              }
+            ]
+          },
+          {
             "position": "Frontend Web Developer - Team Leader",
             "period": "January 2020 - June 2020",
-            "description": "Internal project for Rockteeth. The project has been developed in React. The web application has different functional sections. First you have the CRUD of the different entities defined by the stackholder.\nSecondly, we have a custom section to create prescriptions where the dentists' data are incorporated, the number of pieces (teeth) to be replaced or implanted according to the needs of each client, finally there is the client's data (name, age , face shape, etc).\nThird, we have a statistics page for the monthly reports that the clinic does.\nFinally, we have an incidence section, in which anomalies are discussed whether they are the client or the prescription. \n\nTECHNOLOGIES: React, Redux and Ant Design\nTOOLS: Git, Trello, and GitLab \nWORK METHODOLOGY: Agile scrum methodolog"
+            "description": "Internal project for Rockteeth. The project has been developed in React. The web application has different functional sections. First you have the CRUD of the different entities defined by the stackholder.\nSecondly, we have a custom section to create prescriptions where the dentists' data are incorporated, the number of pieces (teeth) to be replaced or implanted according to the needs of each client, finally there is the client's data (name, age , face shape, etc).\nThird, we have a statistics page for the monthly reports that the clinic does.\nFinally, we have an incidence section, in which anomalies are discussed whether they are the client or the prescription.",
+            "technologies": [
+              {
+                "name": "ReactJS"
+              },
+              {
+                "name": "Redux"
+              },
+              {
+                "name": "Ant Design"
+              }
+            ],
+            "tools": [
+              {
+                "name": "Git"
+              },
+              {
+                "name": "Trello"
+              },
+              {
+                "name": "Google Drive"
+              },
+              {
+                "name": "GitLab"
+              }
+            ],
+            "methodology": [
+              {
+                "name": "Agile scrum methodology"
+              }
+            ]
           },
           {
             "position": "Frontend Web Developer",
             "period": "July 2019 - January 2020",
-            "description": "A copy in WordPress (Multisite) of the old web areas.com has been made using plugins such as: Custom Post Type, Advanced Custom Fields, WP Rocket and Yoast SEO.\nAt the request of the client, I have created a custom cookie consent popup and the carousel of the tweets of the Twitter account of each subsite. \n\nTECHNOLOGIES: WordPress\nTOOLS: Git, Jira, Trello, and GitLab\n"
+            "description": "A copy in WordPress (Multisite) of the old web areas.com has been made using plugins such as: Custom Post Type, Advanced Custom Fields, WP Rocket and Yoast SEO.\nAt the request of the client, I have created a custom cookie consent popup and the carousel of the tweets of the Twitter account of each subsite. \n\nTECHNOLOGIES: WordPress\nTOOLS: Git, Jira, Trello, and GitLab\n",
+            "technologies": [
+              {
+                "name": "WordPress"
+              }
+            ],
+            "tools": [
+              {
+                "name": "Git"
+              },
+              {
+                "name": "Jira"
+              },
+              {
+                "name": "trello"
+              },
+              {
+                "name": "GitLab"
+              }
+            ]
           },
           {
             "position": "Practice",
             "period": "February 2019 - July 2019",
-            "description": "Web application made with WordPress, for potential customers who may request gas for their home. Custom plugins have been made for the operation required by the client, at the same time, Gulp has been used as a compiler for JS and SCSS.\n\nTECHNOLOGIES: WordPress\nTOOLS: Git, Jira and GitLab\nWORK METHODOLOGY: Agile scrum methodology"
+            "description": "Web application made with WordPress, for potential customers who may request gas for their home. Custom plugins have been made for the operation required by the client, at the same time, Gulp has been used as a compiler for JS and SCSS.\n\nTECHNOLOGIES: WordPress\nTOOLS: Git, Jira and GitLab\nWORK METHODOLOGY: Agile scrum methodology",
+            "technologies": [
+              {
+                "name": "WordPress"
+              }
+            ],
+            "tools": [
+              {
+                "name": "Git"
+              },
+              {
+                "name": "Jira"
+              },
+              {
+                "name": "GitLab"
+              }
+            ],
+            "methodology": [
+              {
+                "name": "Agile scrum methodology"
+              }
+            ]
           }
         ]
       },
@@ -200,7 +317,8 @@
         "category": "My Travel Blog for my post-university travels",
         "image": "solicitargasnatural.png",
         "url": "https://solicitargasnatural.nedgia.es"
-      },{
+      },
+      {
         "title": "Area Privada Cliente",
         "category": "My Travel Blog for my post-university travels",
         "image": "areaprivadacliente.png",

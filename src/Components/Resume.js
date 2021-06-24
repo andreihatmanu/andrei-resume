@@ -15,29 +15,39 @@ class Resume extends Component {
     const profilepic = "images/" + this.props.data.image;
 
     const skillmessage = this.props.data.skillmessage;
-    const education = this.props.data.education.map(function (education) {
-      return (
-        <div key={ education.school }>
-          <h3>{ education.school }</h3>
-          <p className="info">
-            { education.degree } <span>&bull;</span>
-            <em className="date">{ education.graduated }</em>
-          </p>
-          <p>{ education.description }</p>
+    const education = this.props.data.education.map((education, index) => (
+      <div key={ index }
+           className="d-flex flex-column flex-sm-row-reverse justify-content-around align-items-start pb-5">
+        <div className="col-sm-2 text-center firm">
+          <img className="profile-pic" src={ "images/" + education.logo } alt="Basetis logo"/>
         </div>
-      );
-    });
 
-    const work = this.props.data.work.map((work, index) => (
-      (
+        <div className="col-sm-7 d-flex flex-column ">
+          <h3 className="pb-5">{ education.school }</h3>
+          <div key={ index } className="d-flex flex-row mb-4">
+            <div className="d-flex flex-column align-items-center mr-3">
+            </div>
+            <div className="d-flex flex-column">
+              <p className="info">
+                { education.degree }
+                <span>&bull;</span> <em className="date">{ education.graduated }</em>
+              </p>
+              <p className="description">{ education.description }</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    ));
+
+    const work = this.props.data.work.map((work, index) => ((
         <div key={ index }
-             className="d-flex flex-column flex-sm-row justify-content-around align-items-start">
+             className="d-flex flex-column flex-sm-row justify-content-around align-items-start pb-5">
           <div className="col-sm-2 text-center firm">
             <img className="profile-pic" src={ "images/" + work.logo } alt="Basetis logo"/>
           </div>
 
           <div className="col-sm-9 d-flex flex-column ">
-            <h3>{ work.company }</h3>
+            <h3 className="pb-5">{ work.company }</h3>
             { work.rols && work.rols.map((rol, index) => (
               <div key={ index } className="d-flex flex-row mb-4">
                 <div className="d-flex flex-column align-items-center mr-3">
@@ -53,27 +63,43 @@ class Resume extends Component {
                     { rol.position }
                     <span>&bull;</span> <em className="date">{ rol.period }</em>
                   </p>
-                  <p className="description ">{ rol.description }</p>
+                  <p className="description">{ rol.description }</p>
+                  <p></p>
+                  <div className="d-flex flex-wrap">
+                    { rol.technologies && (<p className="tech font-weight-bold">Technologies: </p>) }
+                    { rol.technologies && rol.technologies.map((tech, index) => (
+                      index === 0
+                        ? (<p className="tech">{ tech.name }</p>)
+                        : rol.technologies.indexOf(tech) < rol.technologies.length - 1
+                        ? (<p className="tech">, { tech.name }</p>)
+                        : (<p className="tech"> and { tech.name }</p>)
+                    )) }
+                  </div>
+                  <div className="d-flex flex-wrap">
+                    { rol.tools && (<p className="tech font-weight-bold">Tools: </p>) }
+                    { rol.tools && rol.tools.map((tool, index) => (
+                      index === 0
+                        ? (<p className="tech">{ tool.name }</p>)
+                        : rol.tools.indexOf(tool) < rol.tools.length - 1
+                        ? (<p className="tech">, { tool.name }</p>)
+                        : (<p className="tech"> and { tool.name }</p>)
+                    )) }
+                  </div>
+                  <div className="d-flex flex-wrap">
+                    { rol.methodology && (<p className="tech font-weight-bold">Methodology: </p>) }
+                    { rol.methodology && rol.methodology.map((method, index) => (
+                      index === 0
+                        ? (<p className="tech">{ method.name }</p>)
+                        : rol.methodology.indexOf(method) < rol.methodology.length - 1
+                        ? (<p className="tech">, { method.name }</p>)
+                        : (<p className="tech"> and { method.name }</p>)
+                    )) }
+                  </div>
                 </div>
               </div>
             )) }
           </div>
         </div>)
-      /*) : (
-        <div key={ work.index } className="d-flex flex-column flex-sm-row-reverse justify-content-around align-items-center">
-          <div className="col-sm-4 col-md-3 text-center">
-            <img className="profile-pic" src={ "images/" + work.logo } alt="Basetis logo"/>
-          </div>
-          <div className="col-sm-8 col-md-9 d-flex flex-column ">
-            <h3>{ work.company }</h3>
-            <p className="info">
-              { work.title }
-              <span>&bull;</span> <em className="date">{ work.years }</em>
-            </p>
-            <p>{ work.description }</p>
-          </div>
-        </div>
-      )*/
     ));
 
     const skills = this.props.data.skills.map(skill => {
@@ -102,7 +128,18 @@ class Resume extends Component {
           <div className="mx-auto pr-sm-5">{ work }</div>
         </div>
 
-        {/*<div className="d-flex flex-column">
+
+        <div className="d-flex flex-column">
+          <div className="header-col mx-auto m-5">
+            <h1 className="d-flex justify-content-center align-items-center p-3 border-bottom">
+              <img className="section-icon" src={ "images/books.png" } alt="Experience"/>
+              <span>Education</span>
+            </h1>
+          </div>
+          <div className="mx-auto pr-sm-5">{ education }</div>
+        </div>
+
+        {/*{<div className="d-flex flex-column">
           <div className="header-col mx-auto">
             <h1 className="d-flex justify-content-center align-items-center p-3 border-bottom">
               <img className="section-icon" src={ "images/books.png" } alt="Education"/>
@@ -110,7 +147,7 @@ class Resume extends Component {
             </h1>
           </div>
           <div>{ education }</div>
-        </div>*/ }
+        </div>}*/ }
 
 
         <div className="d-flex flex-column">
