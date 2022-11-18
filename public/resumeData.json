@@ -58,6 +58,173 @@
     ],
     "work": [
       {
+        "company": "Oxigent Technologies",
+        "logo": "oxigent-logo.jpg",
+        "rols": [
+          {
+            "position": "Frontend Developer",
+            "period": "May 2022 - Present",
+            "description": "CIMSA application maintenance or new developments using React and Flask as development tools. \nAll with scrum agile environment with daily sprint meetings, and sprint reviews.",
+            "technologies": [
+              {
+                "name": "Javascript"
+              },
+              {
+                "name": "React"
+              },
+              {
+                "name": "Redux"
+              },
+              {
+                "name": "Microsoft SQL"
+              },
+              {
+                "name": "Flask"
+              },
+              {
+                "name": "Swagger"
+              },
+              {
+                "name": "Python"
+              }
+            ],
+            "tools": [
+              {
+                "name": "Git"
+              },
+              {
+                "name": "Jira"
+              }
+            ],
+            "methodology": [
+              {
+                "name": "Agile scrum methodology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "company": "The Cocktail",
+        "logo": "thecocktail-logo.png",
+        "rols": [
+          {
+            "position": "Frontend Developer",
+            "period": "March 2022 - May 2022",
+            "description": "Integrate, test, debbug and develop the sitemap file, recording user action on the website and recording what user visits with Interaction Studio (formerly Evergage) that enhances the power of Marketing Cloud with expanded real-time personalization.",
+            "technologies": [
+              {
+                "name": "TypeScript"
+              },
+              {
+                "name": "Javascript"
+              },
+              {
+                "name": "Interaction Studio"
+              }
+            ],
+            "tools": [
+              {
+                "name": "Interaction Studio"
+              }
+            ],
+            "methodology": [
+              {
+                "name": "Agile scrum methodology"
+              }
+            ]
+          },
+          {
+            "position": "Frontend Web Developer - Team Leader",
+            "period": "February 2022 - March 2022",
+            "description": "In this position I was doing maintenance and bug fixes in various applications, both VUE and React.",
+            "technologies": [
+              {
+                "name": "React"
+              },
+              {
+                "name": "Nuxt"
+              },
+              {
+                "name": "Redux-Saga"
+              }
+              ,
+              {
+                "name": "Axios"
+              }
+              ,
+              {
+                "name": "Material-UI"
+              }
+            ],
+            "tools": [
+              {
+                "name": "Git"
+              },
+              {
+                "name": "Jira"
+              },
+              {
+                "name": "Notion"
+              },
+              {
+                "name": "Loco"
+              },
+              {
+                "name": "GitLab"
+              },
+              {
+                "name": "Bitbucket"
+              }
+            ],
+            "methodology": [
+              {
+                "name": "Agile scrum methodology"
+              }
+            ]
+          },
+          {
+            "position": "React Developer",
+            "period": "November 2021 - March 2022",
+            "description": "Web app (SPA) for european group of insurers. Users can singup, upload files and request assistance. \nMeanwhile I have also done some evolution of other projects, solving burgs or implementing UX, technical experience",
+            "technologies": [
+              {
+                "name": "React"
+              },
+              {
+                "name": "Redux"
+              },
+              {
+                "name": "Tailwind"
+              },
+              {
+                "name": "Axios"
+              },
+              {
+                "name": "Material-UI"
+              },
+              {
+                "name": "Sharepoint"
+              }
+            ],
+            "tools": [
+              {
+                "name": "Git"
+              },
+              {
+                "name": "Jira"
+              },
+              {
+                "name": "GitLab"
+              },
+              {
+                "name": "Bitbucket"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "company": "Basetis",
         "logo": "basetis-logo.jpg",
         "rols": [
@@ -143,7 +310,7 @@
           {
             "position": "Frontend Web Developer",
             "period": "July 2019 - January 2020",
-            "description": "A copy in WordPress (Multisite) of the old web areas.com has been made using plugins such as: Custom Post Type, Advanced Custom Fields, WP Rocket and Yoast SEO.\nAt the request of the client, I have created a custom cookie consent popup and the carousel of the tweets of the Twitter account of each subsite. \n\nTECHNOLOGIES: WordPress\nTOOLS: Git, Jira, Trello, and GitLab\n",
+            "description": "A copy in WordPress (Multisite) of the old web areas.com has been made using plugins such as: Custom Post Type, Advanced Custom Fields, WP Rocket and Yoast SEO.\nAt the request of the client, I have created a custom cookie consent popup and the carousel of the tweets of the Twitter account of each subsite.",
             "technologies": [
               {
                 "name": "WordPress"
@@ -167,7 +334,7 @@
           {
             "position": "Practice",
             "period": "February 2019 - July 2019",
-            "description": "Web application made with WordPress, for potential customers who may request gas for their home. Custom plugins have been made for the operation required by the client, at the same time, Gulp has been used as a compiler for JS and SCSS.\n\nTECHNOLOGIES: WordPress\nTOOLS: Git, Jira and GitLab\nWORK METHODOLOGY: Agile scrum methodology",
+            "description": "Web application made with WordPress, for potential customers who may request gas for their home. Custom plugins have been made for the operation required by the client, at the same time, Gulp has been used as a compiler for JS and SCSS.",
             "technologies": [
               {
                 "name": "WordPress"
